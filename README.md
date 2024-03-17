@@ -2,6 +2,8 @@
 *A unified Setup Guide and tricks used for installing Linux over Lenovo Legion 5 laptop (15ARH05)*
 *Una guía unificada de instalación y trucos usado para instalar Linux en el portatil Lenovo legion 5 (15ARH05)*
 
+[>> Start reading <<](https://github.com/lucidtyper/LucidTypist-s-15ARH05-Linux-Guide/wiki)
+
 ## A little notice
 - This repo is being written using several guides over GitHub and other Wikis. References will be added for more information.
 - It will mainly be focused on (but could apply to other):
