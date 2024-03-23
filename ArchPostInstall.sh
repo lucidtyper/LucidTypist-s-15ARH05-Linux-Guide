@@ -7,6 +7,6 @@ sudo systemctl enable --now touchegg
 sudo timeshift-gtk &
 sudo envycontrol -s hybrid --rtd3 3
 
-echo -e "\n\nYou should now reboot and, if everything went along the rails, have the first automatic backup ten minutes after login in. The system WILL REBOOT in 60 seconds."
+echo -e "\n\nYou should now reboot and, if everything went along the rails, have the first automatic backup ten minutes after login in. The system WILL REBOOT in 60 seconds. Remember to setup timeshift with daily, hourly and every boot for backups."
 sleep 60
 reboot
