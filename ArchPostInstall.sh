@@ -1,6 +1,6 @@
 pacman -S --needed git base-devel ; git clone https://aur.archlinux.org/yay.git ; cd yay ; makepkg -si # modified from https://github.com/Jguer/yay
 echo -e "blacklist pcspkr\nblacklist snd_pcsp" > sudo /etc/modprobe.d/nobeep.conf
-yay -S envycontrol pamac-all ibus-pinyin ntfs-3g touchegg timeshift extension-manager microsoft-edge-stable-bin noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra dccutil xournalpp ncdu yt-dlp dropbox megasync okular cpupower cpupower-gui btop fzf ncdu vim --noconfirm
+yay -S envycontrol pamac-all ibus-libpinyin ntfs-3g touchegg timeshift extension-manager microsoft-edge-stable-bin noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra dccutil xournalpp ncdu yt-dlp dropbox megasync okular cpupower cpupower-gui btop fzf ncdu vim --noconfirm
 sudo systemctl enable --now cronie
 sudo systemctl enable --now bluetooth
 sudo systemctl enable --now touchegg
